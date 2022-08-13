@@ -32,7 +32,7 @@ const HeroSection = () => {
         justifyContent="flex-end"
         alignItems="start"
       >
-        <img src={MainImage} width="1382px" height="878.32px" />
+        <img src={MainImage} width="608px" height="783px" />
         <Container>
           <Typography gutterBottom variant="h3" component="div">
             Geometrical heart-fire dispersion

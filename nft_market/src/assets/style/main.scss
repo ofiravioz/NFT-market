@@ -123,10 +123,45 @@ html {
 }
 /*Footer*/
 
-.footer-container {
+.footer-wrap {
+  max-width: 1218px;
+  max-height: 312px;
+  display: flex;
+  .MuiContainer {
+    width: 500px;
+    height: 148px;
+    .logo {
+      width: 161px;
+      height: 32px;
+    }
+  }
+  .MuiStack-root {
+    margin-top: 130px;
+  }
+  .MuiTypography-root {
+    margin-top: 41px;
+  }
+  .MuiBox-root {
+    padding-left: 108px;
+    font-size: 16px;
+    width: 500px;
+    height: 84px;
+    .header {
+      font-size: 22px;
+      width: 160px;
+      height: 32px;
+      margin-bottom: 16px;
+      margin-top: 0;
+    }
+  }
+
   .MuiButtonBase-root {
     color: white;
-    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    height: 28px;
+    margin-top: 8px;
+    padding: 0px;
   }
 }
 

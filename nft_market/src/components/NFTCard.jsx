@@ -3,14 +3,7 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import {
-  Box,
-  Button,
-  CardActionArea,
-  CardActions,
-  Container,
-  Stack,
-} from "@mui/material";
+import { Box, Button, CardActionArea, Stack } from "@mui/material";
 import { UserImage1, MainImage, Bids, History } from "../common/assets.js";
 import UserInfo from "./UserInfo.jsx";
 
@@ -47,7 +40,6 @@ export default function NFTCard() {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions></CardActions>
     </Card>
   );
 }
