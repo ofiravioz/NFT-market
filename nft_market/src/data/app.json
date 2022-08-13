@@ -1,0 +1,115 @@
+{
+  "history": [
+    {
+      "user": {
+        "image": "/assets/images/user1.png",
+        "name": "Cameron Williamosn"
+      },
+      "bid": {
+        "amount": "Bid 1.2 ETH",
+        "date": "June 20 2021, 06:30 AM"
+      }
+    },
+    {
+      "user": {
+        "image": "",
+        "name": "Esther Howard"
+      },
+      "bid": {
+        "amount": "Bid 1.5 ETH",
+        "date": "June 20 2021, 06:35 AM"
+      }
+    },
+    {
+      "user": {
+        "image": "",
+        "name": "Jacob Jones"
+      },
+      "bid": {
+        "amount": "Bid 1.7 ETH",
+        "date": "June 20 2021, 06:47 AM"
+      }
+    },
+    {
+      "user": {
+        "image": "/assets/images/user2.png",
+        "name": "Jenny Wilson"
+      },
+      "bid": {
+        "amount": "Bid 1.4 ETH",
+        "date": "June 20 2021, 06:55 AM"
+      }
+    }
+  ],
+  "bids": [
+    {
+      "user": {
+        "image": "../assets/images/user3.png",
+        "name": "Cameron Williamosn"
+      },
+      "bid": {
+        "amount": "Bid 1 ETH",
+        "date": "June 20 2021, 06:30 AM"
+      }
+    },
+    {
+      "user": {
+        "image": "../assets/images/user4.png",
+        "name": "Esther Howard"
+      },
+      "bid": {
+        "amount": "Bid 1 ETH",
+        "date": "June 20 2021, 06:30 AM"
+      }
+    },
+    {
+      "user": {
+        "image": "",
+        "name": "Jacob Jones"
+      },
+      "bid": {
+        "amount": "Bid 1 ETH",
+        "date": "June 20 2021, 06:30 AM"
+      }
+    },
+    {
+      "user": {
+        "image": "/assets/images/user5.png",
+        "name": "Jenny Wilson"
+      },
+      "bid": {
+        "amount": "Bid 1 ETH",
+        "date": "June 20 2021, 06:55 AM"
+      }
+    }
+  ],
+  "nft": [
+    {
+      "user": {
+        "image": "",
+        "name": "Cameron Williamosn"
+      },
+      "nft": {
+        "image": "../assets/images/pink.png"
+      }
+    },
+    {
+      "user": {
+        "image": "",
+        "name": "Cameron Williamosn"
+      },
+      "nft": {
+        "image": "../assets/images/joy.png"
+      }
+    },
+    {
+      "user": {
+        "image": "",
+        "name": "Cameron Williamosn"
+      },
+      "nft": {
+        "image": "../assets/images/anel.png"
+      }
+    }
+  ]
+}
