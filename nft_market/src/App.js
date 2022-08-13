@@ -23,11 +23,15 @@ function App() {
         alignItems="center "
       >
         <AccordionPanel
-          expanded={true}
+          expandedDefault={true}
           title="History"
           data={appData.history}
         />
-        <AccordionPanel expanded={true} title="Bids" data={appData.bids} />
+        <AccordionPanel
+          expandedDefault={true}
+          title="Bids"
+          data={appData.bids}
+        />
       </Stack>
       <Stack className="more-works" direction="row">
         <Typography gutterBottom variant="h2">

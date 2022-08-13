@@ -2,7 +2,7 @@
   "history": [
     {
       "user": {
-        "image": "/assets/images/user1.png",
+        "image": "./assets/images/user1.png",
         "name": "Cameron Williamosn"
       },
       "bid": {
@@ -32,7 +32,7 @@
     },
     {
       "user": {
-        "image": "/assets/images/user2.png",
+        "image": "./assets/images/user2.png",
         "name": "Jenny Wilson"
       },
       "bid": {
@@ -44,7 +44,7 @@
   "bids": [
     {
       "user": {
-        "image": "../assets/images/user3.png",
+        "image": "./assets/images/user3.png",
         "name": "Cameron Williamosn"
       },
       "bid": {
@@ -54,7 +54,7 @@
     },
     {
       "user": {
-        "image": "../assets/images/user4.png",
+        "image": "./assets/images/user4.png",
         "name": "Esther Howard"
       },
       "bid": {
@@ -74,7 +74,7 @@
     },
     {
       "user": {
-        "image": "/assets/images/user5.png",
+        "image": "./assets/images/user5.png",
         "name": "Jenny Wilson"
       },
       "bid": {
@@ -90,7 +90,7 @@
         "name": "Cameron Williamosn"
       },
       "nft": {
-        "image": "../assets/images/pink.png"
+        "image": "./assets/images/pink.png"
       }
     },
     {
@@ -99,7 +99,7 @@
         "name": "Cameron Williamosn"
       },
       "nft": {
-        "image": "../assets/images/joy.png"
+        "image": "./assets/images/joy.png"
       }
     },
     {
@@ -108,7 +108,7 @@
         "name": "Cameron Williamosn"
       },
       "nft": {
-        "image": "../assets/images/anel.png"
+        "image": "./assets/images/anel.png"
       }
     }
   ]

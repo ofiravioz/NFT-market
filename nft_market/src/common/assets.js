@@ -1,6 +1,3 @@
-import WorkPinkImage from "../assets/images/pink.png";
-import WorkJoyImage from "../assets/images/joy.png";
-import WorkArielImage from "../assets/images/anel.png";
 import MainImage from "../assets/images/main_image.png";
 import UserImage1 from "/projects/react/NFT-market/nft_market/src/assets/images/user1.png";
 import UserImage2 from "/projects/react/NFT-market/nft_market/src/assets/images/user2.png";
@@ -18,9 +15,6 @@ export {
   UserImage3,
   UserImage4,
   UserImage5,
-  WorkPinkImage,
-  WorkJoyImage,
-  WorkArielImage,
   MainImage,
   Logo,
   ExpandMoreIcon,

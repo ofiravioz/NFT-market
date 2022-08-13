@@ -20,19 +20,13 @@ html {
 .MuiGrid-root {
   margin-left: auto;
 }
-/*more-works*/
-.more-works {
-  margin-bottom: 56px;
-  .MuiButtonBase-root {
-    margin-left: auto;
-  }
-}
+
 .MuiTypography-root {
   color: $headerContainButtonColorActive;
   margin-right: auto;
 }
 
-/*hero-section*/
+/*Herosection*/
 .hero-section-stack {
   margin-top: 40px;
 }
@@ -48,12 +42,12 @@ html {
   margin-top: 24px;
   padding-left: 0;
   .MuiChip-root {
-    color: $CategoryTextButtonColor;
+    color: $headerTextButtonColor;
     margin-right: 16px;
     margin-left: 0px;
     margin-top: 16px;
     border-radius: 8px;
-    background-color: $CategoryBackgroundColor;
+    background-color: $AccordionPanelBackgroundColor;
     border-color: transparent;
   }
 }
@@ -67,12 +61,20 @@ html {
   padding: 16px 40px;
   width: 166px;
   height: 64px;
-  color: $headerContainButtonColor;
+  color: $ButtonsColor;
   &.MuiButton-containedSecondary {
     padding: 12px 32px;
-    color: $headerContainButtonColor;
+    color: $ButtonsColor;
   }
 }
+.more-works {
+  margin-bottom: 56px;
+  .MuiButtonBase-root {
+    margin-left: auto;
+  }
+}
+
+/*Lastprice*/
 .lastprice-wrapper {
   margin-top: 4px;
   margin-bottom: 40px;
@@ -85,15 +87,16 @@ html {
   margin-bottom: 80px;
   .css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded:last-of-type {
     border-radius: 16px;
-    background-color: #0e1e45;
+    background-color: $AccordionPanelBackgroundColor;
 
     .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
-      background-color: #0e1e45;
+      background-color: $AccordionPanelBackgroundColor;
       width: 604px;
       border-radius: 8px;
     }
   }
 }
+
 /*NFT*/
 .user-image {
   width: 32px;
@@ -108,21 +111,21 @@ html {
   padding: 16px;
 }
 .nft-bid {
-  color: #cccccc;
+  color: $ButtonsColor;
 }
 .MuiPaper-root {
   .MuiButtonBase-root {
     width: 368px;
     height: 64px;
     border-radius: 8px;
-    color: #cccccc;
+    color: $ButtonsColor;
     &.nft-btn {
-      background-color: "#1F75FF";
+      background-color: $ButtonsBackgroundColor;
     }
   }
 }
-/*Footer*/
 
+/*Footer*/
 .footer-wrap {
   max-width: 1218px;
   max-height: 312px;
@@ -156,7 +159,7 @@ html {
   }
 
   .MuiButtonBase-root {
-    color: white;
+    color: $ButtonsColor;
     margin-right: auto;
     font-size: 16px;
     height: 28px;
@@ -193,8 +196,8 @@ html {
     .MuiButtonBase-root {
       height: 56px;
       width: 143px;
-      background-color: #1f75ff;
-      color: white;
+      background-color: $ButtonsBackgroundColor;
+      color: $ButtonsColor;
       margin-top: 32px;
     }
     .MuiTypography-root {

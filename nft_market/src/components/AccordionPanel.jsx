@@ -3,12 +3,12 @@ import {
   Accordion,
   AccordionSummary,
   AccordionDetails,
-  Box,
   Typography,
   Stack,
   Container,
   Grid,
 } from "@mui/material";
+import { useState } from "react";
 import UserInfo from "./UserInfo";
 
 const AccordionPanelItem = ({ image, name, bid, date }) => {
@@ -23,10 +23,14 @@ const AccordionPanelItem = ({ image, name, bid, date }) => {
   );
 };
 
-export const AccordionPanel = ({ expanded, title, data }) => {
+export const AccordionPanel = ({ expandedDefault, title, data }) => {
+  const [expanded, setExpanded] = useState(expandedDefault);
+  const handleChange = () => {
+    setExpanded((state) => !state);
+  };
   return (
     <Container>
-      <Accordion expanded={expanded}>
+      <Accordion expanded={expanded} onChange={handleChange}>
         <AccordionSummary
           expandIcon={
             <ExpandMore
@@ -47,6 +51,7 @@ export const AccordionPanel = ({ expanded, title, data }) => {
         >
           {data.map((item) => (
             <AccordionPanelItem
+              key={"accordion-item-${item.user.name}"}
               image={item.user.image}
               name={item.user.name}
               bid={item.bid.amount}
