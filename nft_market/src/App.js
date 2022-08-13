@@ -1,14 +1,6 @@
 import "./App.css";
 import "./assets/style/main.css";
-import {
-  Accordion,
-  Box,
-  Button,
-  Container,
-  Stack,
-  styled,
-  Typography,
-} from "@mui/material";
+import { Button, Container, Stack, Typography } from "@mui/material";
 import { AccordionPanel } from "./components/AccordionPanel";
 import NFTCard from "./components/NFTCard";
 import Email from "./components/Email";
