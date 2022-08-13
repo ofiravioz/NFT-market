@@ -1,0 +1,209 @@
+@import "./colors.scss";
+
+html {
+  background-color: $background;
+  color: $background;
+}
+/*Header*/
+.header-wrapper {
+  .MuiButtonBase-root {
+    padding: 0;
+    color: $headerTextButtonColor;
+    &.active {
+      color: $headerContainButtonColorActive;
+    }
+  }
+  .logo {
+    margin-right: auto;
+  }
+}
+.MuiGrid-root {
+  margin-left: auto;
+}
+/*more-works*/
+.more-works {
+  margin-bottom: 56px;
+  .MuiButtonBase-root {
+    margin-left: auto;
+  }
+}
+.MuiTypography-root {
+  color: $headerContainButtonColorActive;
+  margin-right: auto;
+}
+
+/*hero-section*/
+.hero-section-stack {
+  margin-top: 40px;
+}
+.hero-section-wrapper {
+  color: $HeroSectionColor;
+  margin-bottom: 120.68px;
+  .MuiButtonBase-root {
+    color: $HeroSectionColor;
+  }
+}
+/*Category*/
+.category-wrapper {
+  margin-top: 24px;
+  padding-left: 0;
+  .MuiChip-root {
+    color: $CategoryTextButtonColor;
+    margin-right: 16px;
+    margin-left: 0px;
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color: $CategoryBackgroundColor;
+    border-color: transparent;
+  }
+}
+/*Owner*/
+.owner-wrapper {
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+/*Buttons*/
+.MuiButtonBase-root {
+  padding: 16px 40px;
+  width: 166px;
+  height: 64px;
+  color: $headerContainButtonColor;
+  &.MuiButton-containedSecondary {
+    padding: 12px 32px;
+    color: $headerContainButtonColor;
+  }
+}
+.lastprice-wrapper {
+  margin-top: 4px;
+  margin-bottom: 40px;
+  .price-location {
+    margin-top: 16px;
+  }
+}
+/*Accordion*/
+.css-xteuvn-MuiStack-root {
+  margin-bottom: 80px;
+  .css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded:last-of-type {
+    border-radius: 16px;
+    background-color: #0e1e45;
+
+    .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+      background-color: #0e1e45;
+      width: 604px;
+      border-radius: 8px;
+    }
+  }
+}
+/*NFT*/
+.user-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+.nft-image {
+  width: 368px;
+  height: 354px;
+  border-radius: 16px;
+  padding: 16px;
+}
+.nft-bid {
+  color: #cccccc;
+}
+.MuiPaper-root {
+  .MuiButtonBase-root {
+    width: 368px;
+    height: 64px;
+    border-radius: 8px;
+    color: #cccccc;
+    &.nft-btn {
+      background-color: "#1F75FF";
+    }
+  }
+}
+/*Footer*/
+
+.footer-wrap {
+  max-width: 1218px;
+  max-height: 312px;
+  display: flex;
+  .MuiContainer {
+    width: 500px;
+    height: 148px;
+    .logo {
+      width: 161px;
+      height: 32px;
+    }
+  }
+  .MuiStack-root {
+    margin-top: 130px;
+  }
+  .MuiTypography-root {
+    margin-top: 41px;
+  }
+  .MuiBox-root {
+    padding-left: 108px;
+    font-size: 16px;
+    width: 500px;
+    height: 84px;
+    .header {
+      font-size: 22px;
+      width: 160px;
+      height: 32px;
+      margin-bottom: 16px;
+      margin-top: 0;
+    }
+  }
+
+  .MuiButtonBase-root {
+    color: white;
+    margin-right: auto;
+    font-size: 16px;
+    height: 28px;
+    margin-top: 8px;
+    padding: 0px;
+  }
+}
+
+/*Subscription*/
+.subscription-container {
+  margin-top: 160px;
+  margin-bottom: 160px;
+  width: 1232px;
+  height: 456px;
+  background-color: #003385;
+  display: flex !important;
+  justify-content: center;
+
+  .MuiBox-root {
+    height: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    .MuiFormControl-root {
+      margin-top: 32px;
+      height: 56px;
+      width: 513px;
+      .MuiFormLabel-root {
+        color: white;
+      }
+    }
+    .MuiButtonBase-root {
+      height: 56px;
+      width: 143px;
+      background-color: #1f75ff;
+      color: white;
+      margin-top: 32px;
+    }
+    .MuiTypography-root {
+      &.MuiTypography-h3 {
+        font-size: 48px;
+      }
+      &.MuiTypography-h5 {
+        font-size: 16px;
+      }
+    }
+  }
+}
