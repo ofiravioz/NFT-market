@@ -1,4 +1,4 @@
-import { ExpandMore, Maximize } from "@mui/icons-material";
+import { ExpandMore } from "@mui/icons-material";
 import {
   Accordion,
   AccordionSummary,

@@ -1,5 +1,4 @@
-import { Button, Chip, Container, Stack, styled } from "@mui/material";
-import { Box } from "@mui/system";
+import { Chip, Container, Stack } from "@mui/material";
 import React from "react";
 const Category = () => {
   return (
