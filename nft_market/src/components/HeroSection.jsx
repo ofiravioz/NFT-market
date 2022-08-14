@@ -22,7 +22,7 @@ const Owner = () => {
   );
 };
 
-const HeroSection = () => {
+const HeroSection = ({ data }) => {
   return (
     <Container className="hero-section-wrapper">
       <Stack
@@ -43,7 +43,7 @@ const HeroSection = () => {
             to emphatize the contrast between front and background spaces,
             enhancing better the main subject exposure.
           </Box>
-          <Category />
+          <Category data={data} />
           <Owner />
           <Lastprice />
           <Stack classname="herosection-button" direction="row" spacing={2}>
