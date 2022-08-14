@@ -4,23 +4,23 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Box, Button, CardActionArea, Stack } from "@mui/material";
-import { UserImage1, MainImage, Bids, History } from "../common/assets.js";
+import { MainImage, Bids, History } from "../common/assets.js";
 import UserInfo from "./UserInfo.jsx";
 
-export default function NFTCard() {
+export default function NFTCard({ item }) {
   return (
     <Card sx={{ width: 400, height: 674, backgroundColor: "#0E1E45" }}>
       <CardActionArea>
         <CardMedia />
-        <img className="nft-image" src={MainImage} />
+        <img className="nft-image" src={item.nft.image} />
         <CardContent>
           <Typography gutterBottom variant="h4" component="div">
-            Inner State : Pink
+            {item.nft.name}
           </Typography>
 
           <Stack direction="row" spacing={1}>
-            <img className="user-image" src={UserImage1} />
-            <Typography>Cameron Williamson</Typography>
+            <img className="user-image" src={item.user.image} />
+            <Typography>{item.user.name}</Typography>
           </Stack>
 
           <Typography variant="body2" color="text.secondary">
@@ -30,10 +30,10 @@ export default function NFTCard() {
             </Stack>
             <Stack direction="row" spacing={11}>
               <Typography gutterBottom variant="h6" component="div">
-                0.4435 ETH
+                {item.bid.amount}
               </Typography>
               <Typography gutterBottom variant="h6" component="div">
-                10h 12m 32s
+                {item.bid.ends}
               </Typography>
             </Stack>
             <Button className="nft-btn">Place a bid</Button>

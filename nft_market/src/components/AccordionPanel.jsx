@@ -11,13 +11,13 @@ import {
 import { useState } from "react";
 import UserInfo from "./UserInfo";
 
-const AccordionPanelItem = ({ image, name, bid, date }) => {
+const AccordionPanelItem = ({ item }) => {
   return (
     <Stack direction="row">
-      <UserInfo name={name} image={image} />
+      <UserInfo name={item.user.name} image={item.user.image} />
       <Grid direction="coulmn" spacing={1}>
-        <Typography>{bid}</Typography>
-        <Typography>{date}</Typography>
+        <Typography>{item.bid.amount}</Typography>
+        <Typography>{item.bid.date}</Typography>
       </Grid>
     </Stack>
   );
@@ -52,10 +52,7 @@ export const AccordionPanel = ({ expandedDefault, title, data }) => {
           {data.map((item) => (
             <AccordionPanelItem
               key={"accordion-item-${item.user.name}"}
-              image={item.user.image}
-              name={item.user.name}
-              bid={item.bid.amount}
-              date={item.bid.date}
+              item={item}
             />
           ))}
         </AccordionDetails>

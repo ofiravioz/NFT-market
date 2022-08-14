@@ -1,6 +1,6 @@
 import { Chip, Container, Stack } from "@mui/material";
 import React from "react";
-const Category = () => {
+const Category = ({ data }) => {
   return (
     <Container className="category-wrapper">
       <Stack

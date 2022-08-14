@@ -15,6 +15,8 @@ html {
   }
   .logo {
     margin-right: auto;
+    width: 161px;
+    height: 32px;
   }
 }
 .MuiGrid-root {
@@ -85,11 +87,12 @@ html {
 /*Accordion*/
 .css-xteuvn-MuiStack-root {
   margin-bottom: 80px;
-  .css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded:last-of-type {
+  .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
     border-radius: 16px;
     background-color: $AccordionPanelBackgroundColor;
+    width: 604px;
 
-    .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+    .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
       background-color: $AccordionPanelBackgroundColor;
       width: 604px;
       border-radius: 8px;
@@ -138,11 +141,15 @@ html {
       height: 32px;
     }
   }
-  .MuiStack-root {
+  .css-82xd8s-MuiStack-root {
     margin-top: 130px;
+    .MuiButtonBase-root {
+      font-weight: 400;
+    }
   }
   .MuiTypography-root {
     margin-top: 41px;
+    font-weight: 400;
   }
   .MuiBox-root {
     padding-left: 108px;
@@ -155,6 +162,7 @@ html {
       height: 32px;
       margin-bottom: 16px;
       margin-top: 0;
+      font-weight: 700;
     }
   }
 
@@ -165,6 +173,7 @@ html {
     height: 28px;
     margin-top: 8px;
     padding: 0px;
+    font-weight: 400;
   }
 }
 
@@ -180,7 +189,7 @@ html {
 
   .MuiBox-root {
     height: 100%;
-    max-width: 800px;
+    max-width: 710px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -203,6 +212,7 @@ html {
     .MuiTypography-root {
       &.MuiTypography-h3 {
         font-size: 48px;
+        font-weight: 700;
       }
       &.MuiTypography-h5 {
         font-size: 16px;

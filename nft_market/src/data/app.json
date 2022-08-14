@@ -86,29 +86,61 @@
   "nft": [
     {
       "user": {
-        "image": "",
+        "image": "./assets/images/user1.png",
         "name": "Cameron Williamosn"
       },
       "nft": {
-        "image": "./assets/images/pink.png"
+        "image": "./assets/images/pink.png",
+        "name": "Inner State : Pink"
+      },
+      "bid": {
+        "amount": "0.4435 ETH",
+        "ends": "10h 12m 32s"
       }
     },
     {
       "user": {
-        "image": "",
+        "image": "./assets/images/user1.png",
         "name": "Cameron Williamosn"
       },
       "nft": {
-        "image": "./assets/images/joy.png"
+        "image": "./assets/images/joy.png",
+        "name": "Inner State : Joy"
+      },
+      "bid": {
+        "amount": "0.4435 ETH",
+        "ends": "10h 12m 32s"
       }
     },
     {
       "user": {
-        "image": "",
+        "image": "./assets/images/user1.png",
         "name": "Cameron Williamosn"
       },
       "nft": {
-        "image": "./assets/images/anel.png"
+        "image": "./assets/images/anel.png",
+        "name": "Inner State : Ariel"
+      },
+      "bid": {
+        "amount": "0.4435 ETH",
+        "ends": "10h 12m 32s"
+      }
+    }
+  ],
+  "herotag": [
+    {
+      "tags": {
+        "tag1": "Blue Color",
+        "tag2": "Cold",
+        "tag3": "Crypto Art",
+        "tag4": "Blue Filter",
+        "tag5": "Defragmentation",
+        "tag6": "Hexagon",
+        "tag7": "Light",
+        "tag8": "Motion",
+        "tag9": "Sparks",
+        "tag10": "Edition",
+        "tag11": "1"
       }
     }
   ]

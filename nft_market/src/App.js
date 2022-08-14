@@ -14,7 +14,7 @@ function App() {
     <Container maxWidth="lg">
       <Header />
       <Container>
-        <HeroSection />
+        <HeroSection data={appData.herotag} />
       </Container>
       <Stack
         direction="row"
@@ -42,9 +42,9 @@ function App() {
         </Button>
       </Stack>
       <Stack direction="row" spacing={2}>
-        <NFTCard data={appData.NFTCard} />
-        <NFTCard />
-        <NFTCard />
+        {appData.nft.map((item) => (
+          <NFTCard key={"nft-item-${item.user.name}"} item={item} />
+        ))}
       </Stack>
       <Email />
       <Footer />
