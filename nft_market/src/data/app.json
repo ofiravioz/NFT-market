@@ -128,20 +128,15 @@
     }
   ],
   "herotag": [
-    {
-      "tags": {
-        "tag1": "Blue Color",
-        "tag2": "Cold",
-        "tag3": "Crypto Art",
-        "tag4": "Blue Filter",
-        "tag5": "Defragmentation",
-        "tag6": "Hexagon",
-        "tag7": "Light",
-        "tag8": "Motion",
-        "tag9": "Sparks",
-        "tag10": "Edition",
-        "tag11": "1"
-      }
-    }
+    "Blue Color",
+    "Cold",
+    "Crypto Art",
+    "Blue Filter",
+    "Defragmentation",
+    "Hexagon",
+    "Light",
+    "Motion",
+    "Sparks",
+    "Edition"
   ]
 }

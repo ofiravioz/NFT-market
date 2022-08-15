@@ -24,7 +24,12 @@ const Owner = () => {
 
 const HeroSection = ({ data }) => {
   return (
-    <Container className="hero-section-wrapper">
+    <Container
+      sx={{
+        color: "#fff",
+        padding: 0,
+      }}
+    >
       <Stack
         className="hero-section-stack"
         direction="row"
@@ -50,7 +55,7 @@ const HeroSection = ({ data }) => {
             <Button color="primary" variant="contained">
               place a Bid
             </Button>
-            <Button>
+            <Button variant="outlined">
               Share <ShareIcon fontSize="small" sx={{ marginLeft: "13px" }} />
             </Button>
           </Stack>

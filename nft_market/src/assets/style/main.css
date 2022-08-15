@@ -8,6 +8,10 @@ html {
 }
 
 /*Header*/
+.header-wrapper {
+  width: 1232px;
+}
+
 .header-wrapper .MuiButtonBase-root {
   padding: 0;
   color: #cccc;
@@ -35,21 +39,27 @@ html {
 /*Herosection*/
 .hero-section-stack {
   margin-top: 40px;
-}
-
-.hero-section-wrapper {
-  color: #fff;
   margin-bottom: 120.68px;
 }
 
-.hero-section-wrapper .MuiButtonBase-root {
+.hero-section-stack .MuiButtonBase-root {
+  color: #fff;
+  border-color: #fff;
+}
+
+.hero-section-wrapper {
   color: #fff;
 }
 
 /*Category*/
 .category-wrapper {
   margin-top: 24px;
-  padding-left: 0;
+  padding-left: 0%;
+}
+
+.category-wrapper .MuiChip-label {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .category-wrapper .MuiChip-root {
@@ -102,15 +112,21 @@ html {
 /*Accordion*/
 .css-xteuvn-MuiStack-root {
   margin-bottom: 80px;
+  margin-left: 104px;
 }
 
-.css-xteuvn-MuiStack-root .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+.MuiPaper-root {
   border-radius: 16px;
   background-color: #0e1e45;
   width: 604px;
 }
 
-.css-xteuvn-MuiStack-root .css-1elwnq4-MuiPaper-root-MuiAccordion-root .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+.MuiPaper-root.MuiAccordion-root {
+  border-radius: 8px;
+  background-color: #0e1e45;
+}
+
+.MuiPaper-root .MuiButtonBase-root {
   background-color: #0e1e45;
   width: 604px;
   border-radius: 8px;
@@ -135,14 +151,14 @@ html {
   color: #fff;
 }
 
-.MuiPaper-root .MuiButtonBase-root {
+.MuiCard-root .MuiButtonBase-root {
   width: 368px;
   height: 64px;
   border-radius: 8px;
   color: #fff;
 }
 
-.MuiPaper-root .MuiButtonBase-root.nft-btn {
+.MuiCard-root .MuiButtonBase-root.nft-btn {
   background-color: #1f75ff;
 }
 

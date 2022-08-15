@@ -6,6 +6,7 @@ html {
 }
 /*Header*/
 .header-wrapper {
+  width: 1232px;
   .MuiButtonBase-root {
     padding: 0;
     color: $headerTextButtonColor;
@@ -31,18 +32,23 @@ html {
 /*Herosection*/
 .hero-section-stack {
   margin-top: 40px;
-}
-.hero-section-wrapper {
-  color: $HeroSectionColor;
   margin-bottom: 120.68px;
   .MuiButtonBase-root {
     color: $HeroSectionColor;
+    border-color: $HeroSectionColor;
   }
+}
+.hero-section-wrapper {
+  color: $HeroSectionColor;
 }
 /*Category*/
 .category-wrapper {
   margin-top: 24px;
-  padding-left: 0;
+  padding-left: 0%;
+  .MuiChip-label {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
   .MuiChip-root {
     color: $headerTextButtonColor;
     margin-right: 16px;
@@ -87,16 +93,21 @@ html {
 /*Accordion*/
 .css-xteuvn-MuiStack-root {
   margin-bottom: 80px;
-  .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
-    border-radius: 16px;
+  margin-left: 104px;
+}
+.MuiPaper-root {
+  border-radius: 16px;
+  background-color: $AccordionPanelBackgroundColor;
+  width: 604px;
+
+  &.MuiAccordion-root {
+    border-radius: 8px;
+    background-color: $AccordionPanelBackgroundColor;
+  }
+  .MuiButtonBase-root {
     background-color: $AccordionPanelBackgroundColor;
     width: 604px;
-
-    .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
-      background-color: $AccordionPanelBackgroundColor;
-      width: 604px;
-      border-radius: 8px;
-    }
+    border-radius: 8px;
   }
 }
 
@@ -116,7 +127,7 @@ html {
 .nft-bid {
   color: $ButtonsColor;
 }
-.MuiPaper-root {
+.MuiCard-root {
   .MuiButtonBase-root {
     width: 368px;
     height: 64px;

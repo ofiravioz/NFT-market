@@ -16,12 +16,7 @@ function App() {
       <Container>
         <HeroSection data={appData.herotag} />
       </Container>
-      <Stack
-        direction="row"
-        spacing={10}
-        justifyContent="center"
-        alignItems="center "
-      >
+      <Stack direction="row">
         <AccordionPanel
           expandedDefault={true}
           title="History"
