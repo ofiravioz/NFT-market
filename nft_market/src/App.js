@@ -8,7 +8,8 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import appData from "./data/app.json";
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import PageNotFound from "./components/PageNotFound";
 function App() {
   return (
     <Container maxWidth="lg">
@@ -22,7 +23,7 @@ function App() {
           title="History"
           data={appData.history}
         />
-        <AccordionPanel
+        <AccordionPanela
           expandedDefault={true}
           title="Bids"
           data={appData.bids}
