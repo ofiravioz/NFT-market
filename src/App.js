@@ -23,7 +23,7 @@ function App() {
           title="History"
           data={appData.history}
         />
-        <AccordionPanela
+        <AccordionPanel
           expandedDefault={true}
           title="Bids"
           data={appData.bids}
