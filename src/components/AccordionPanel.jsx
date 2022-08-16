@@ -7,9 +7,12 @@ import {
   Stack,
   Container,
   Grid,
+  Icon,
 } from "@mui/material";
 import { useState } from "react";
 import UserInfo from "./UserInfo";
+import { History } from "../common/assets";
+import { Bids } from "../common/assets";
 
 const AccordionPanelItem = ({ item }) => {
   return (
@@ -41,7 +44,10 @@ export const AccordionPanel = ({ expandedDefault, title, data }) => {
             />
           }
         >
-          <Typography>{title}</Typography>
+          <Typography>
+            <Icon src={"../common/assets" + { title } + ".svg"} />
+            {title}
+          </Typography>
         </AccordionSummary>
         <AccordionDetails
           sx={{

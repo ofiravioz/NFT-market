@@ -4,6 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Box, Button, CardActionArea, Stack } from "@mui/material";
+import { Link } from "react-router-dom";
 
 export default function NFTCard({ item }) {
   return (
@@ -34,7 +35,9 @@ export default function NFTCard({ item }) {
                 {item.bid.ends}
               </Typography>
             </Stack>
-            <Button className="nft-btn">Place a bid</Button>
+            <Button component={Link} to="/404" className="nft-btn">
+              Place a bid
+            </Button>
           </Typography>
         </CardContent>
       </CardActionArea>

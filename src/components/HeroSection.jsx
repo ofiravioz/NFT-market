@@ -6,6 +6,7 @@ import { Box, Button, Container, Typography } from "@mui/material";
 import { Stack } from "@mui/system";
 import { MainImage } from "../common/assets.js";
 import ShareIcon from "@mui/icons-material/Share";
+import { Link } from "react-router-dom";
 
 const Owner = () => {
   return (
@@ -52,10 +53,15 @@ const HeroSection = ({ data }) => {
           <Owner />
           <Lastprice />
           <Stack classname="herosection-button" direction="row" spacing={2}>
-            <Button color="primary" variant="contained">
+            <Button
+              component={Link}
+              to="/404"
+              color="primary"
+              variant="contained"
+            >
               place a Bid
             </Button>
-            <Button variant="outlined">
+            <Button component={Link} to="/404" variant="outlined">
               Share <ShareIcon fontSize="small" sx={{ marginLeft: "13px" }} />
             </Button>
           </Stack>

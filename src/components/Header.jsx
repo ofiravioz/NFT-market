@@ -13,18 +13,28 @@ const Header = () => {
         justifyContent="center"
       >
         <Logo className="logo" />
-        <Button className="active">Home</Button>
+        <Button component={Link} to="/Home" className="active">
+          Home
+        </Button>
         <Button component={Link} to="/404">
           Market
         </Button>
-        <Button>Explore</Button>
-        <Button>Exhibitiontab</Button>
-        <Button>Artist</Button>
-        <Button>
+        <Button component={Link} to="/404">
+          Explore
+        </Button>
+        <Button component={Link} to="/404">
+          Exhibitiontab
+        </Button>
+        <Button component={Link} to="/404">
+          Artist
+        </Button>
+        <Button component={Link} to="/404">
           Community
           <ExpandMoreIcon />
         </Button>
         <Button
+          component={Link}
+          to="/404"
           color="secondary"
           variant="contained"
           sx={{

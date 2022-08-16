@@ -1,10 +1,22 @@
+import { Box, Typography } from "@mui/material";
 import React from "react";
 function PageNotFound() {
   return (
-    <div>
-      <h1>404 Error</h1>
-      <h1>Page Not Found</h1>
-    </div>
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        textAlign: "center",
+        color: "#fff",
+      }}
+    >
+      <Typography gutterBottom variant="h1">
+        404 Error
+      </Typography>
+      <Typography gutterBottom variant="h2">
+        Page Not Found
+      </Typography>
+    </Box>
   );
 }
 

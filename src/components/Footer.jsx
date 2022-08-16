@@ -1,6 +1,7 @@
 import { Box, Button, Container, Stack, Typography } from "@mui/material";
 import React from "react";
 import { Logo } from "../common/assets";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <Box className="footer-wrap">
@@ -12,31 +13,70 @@ const Footer = () => {
           Imperdiet mus urna egestas at tellus.{" "}
         </Typography>
         <Stack direction="row" spacing={7}>
-          <Button className="test">Privacy Policy</Button>
-          <Button className="test">Terms and Condition</Button>
+          <Button component={Link} to="/404" className="test">
+            Privacy Policy
+          </Button>
+          <Button component={Link} to="/404" className="test">
+            Terms and Condition
+          </Button>
         </Stack>
       </Container>
       <Box>
-        <Button className="header"> About</Button>
-        <Button>About Us</Button>
-        <Button>Our Services</Button>
-        <Button>How It Works</Button>
-        <Button>Support</Button>
-        <Button>Become a Partner</Button>
+        <Button component={Link} to="/404" className="header">
+          {" "}
+          About
+        </Button>
+        <Button component={Link} to="/404">
+          About Us
+        </Button>
+        <Button component={Link} to="/404">
+          Our Services
+        </Button>
+        <Button component={Link} to="/404">
+          How It Works
+        </Button>
+        <Button component={Link} to="/404">
+          Support
+        </Button>
+        <Button component={Link} to="/404">
+          Become a Partner
+        </Button>
       </Box>
       <Box>
-        <Button className="header"> Comunity</Button>
-        <Button>Token</Button>
-        <Button>Discussion</Button>
-        <Button>Voting</Button>
-        <Button>Blog</Button>
-        <Button>Help Center</Button>
+        <Button component={Link} to="/404" className="header">
+          {" "}
+          Comunity
+        </Button>
+        <Button component={Link} to="/404">
+          Token
+        </Button>
+        <Button component={Link} to="/404">
+          Discussion
+        </Button>
+        <Button component={Link} to="/404">
+          Voting
+        </Button>
+        <Button component={Link} to="/404">
+          Blog
+        </Button>
+        <Button component={Link} to="/404">
+          Help Center
+        </Button>
       </Box>
       <Box>
-        <Button className="header"> Social Media</Button>
-        <Button>Facebook</Button>
-        <Button>Instagram</Button>
-        <Button>Twitter</Button>
+        <Button component={Link} to="/404" className="header">
+          {" "}
+          Social Media
+        </Button>
+        <Button component={Link} to="/404">
+          Facebook
+        </Button>
+        <Button component={Link} to="/404">
+          Instagram
+        </Button>
+        <Button component={Link} to="/404">
+          Twitter
+        </Button>
       </Box>
     </Box>
   );

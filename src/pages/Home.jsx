@@ -2,7 +2,7 @@ import "../assets/style/main.css";
 import { Button, Container, Stack, Typography } from "@mui/material";
 import { AccordionPanel } from "../components/AccordionPanel";
 import NFTCard from "../components/NFTCard";
-import Email from "../components/Email";
+import Subscripton from "../components/Subscripton";
 import HeroSection from "../components/HeroSection";
 import appData from "../data/app.json";
 function Home() {
@@ -36,7 +36,7 @@ function Home() {
           <NFTCard item={item} />
         ))}
       </Stack>
-      <Email />
+      <Subscripton />
     </Container>
   );
 }

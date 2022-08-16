@@ -2,6 +2,7 @@ import { Box, Button, Container, Typography } from "@mui/material";
 import { Stack } from "@mui/system";
 import TextField from "@mui/material/TextField";
 import React from "react";
+import { Link } from "react-router-dom";
 const Email = () => {
   return (
     <Container className="subscription-container">
@@ -17,7 +18,9 @@ const Email = () => {
         </Typography>
         <Stack direction="row" spacing={2}>
           <TextField id="filled-basic" label="Your Email" variant="filled" />
-          <Button>Subscribe</Button>
+          <Button component={Link} to="/404">
+            Subscribe
+          </Button>
         </Stack>
       </Box>
     </Container>
