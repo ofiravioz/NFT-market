@@ -11,8 +11,6 @@ import {
 } from "@mui/material";
 import { useState } from "react";
 import UserInfo from "./UserInfo";
-import { History } from "../common/assets";
-import { Bids } from "../common/assets";
 
 const AccordionPanelItem = ({ item }) => {
   return (
@@ -26,11 +24,12 @@ const AccordionPanelItem = ({ item }) => {
   );
 };
 
-export const AccordionPanel = ({ expandedDefault, title, data }) => {
+export const AccordionPanel = ({ expandedDefault, title, data, icon }) => {
   const [expanded, setExpanded] = useState(expandedDefault);
   const handleChange = () => {
     setExpanded((state) => !state);
   };
+  console.log({ icon });
   return (
     <Container>
       <Accordion expanded={expanded} onChange={handleChange}>
@@ -44,8 +43,17 @@ export const AccordionPanel = ({ expandedDefault, title, data }) => {
             />
           }
         >
-          <Typography>
-            <Icon src={"../common/assets" + { title } + ".svg"} />
+          <img src={icon} />
+          <Typography
+            gutterBottom="h2"
+            fontSize={24}
+            fontweight={700}
+            sx={{
+              width: "86px",
+              height: "32px",
+              marginLeft: "18px",
+            }}
+          >
             {title}
           </Typography>
         </AccordionSummary>

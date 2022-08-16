@@ -13,7 +13,7 @@ const Header = () => {
         justifyContent="center"
       >
         <Logo className="logo" />
-        <Button component={Link} to="/Home" className="active">
+        <Button component={Link} to="/" className="active">
           Home
         </Button>
         <Button component={Link} to="/404">

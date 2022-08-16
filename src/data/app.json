@@ -1,4 +1,6 @@
 {
+  "historyicon": "./assets/images/history.svg",
+  "bidsicon": "./assets/images/bids.svg",
   "history": [
     {
       "user": {

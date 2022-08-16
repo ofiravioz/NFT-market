@@ -16,11 +16,13 @@ function Home() {
           expandedDefault={true}
           title="History"
           data={appData.history}
+          icon={appData.historyicon}
         />
         <AccordionPanel
           expandedDefault={true}
           title="Bids"
           data={appData.bids}
+          icon={appData.bidsicon}
         />
       </Stack>
       <Stack className="more-works" direction="row">
