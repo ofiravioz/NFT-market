@@ -24,7 +24,17 @@ const Header = () => {
           Community
           <ExpandMoreIcon />
         </Button>
-        <Button color="secondary" variant="contained">
+        <Button
+          color="secondary"
+          variant="contained"
+          sx={{
+            width: 184,
+            height: 52,
+            fontSize: "13px",
+            flex: "none",
+            borderradius: 8,
+          }}
+        >
           connect wallet
         </Button>
       </Stack>
