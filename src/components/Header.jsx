@@ -2,6 +2,7 @@ import { Button, Stack } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
 import { Logo, ExpandMoreIcon } from "../common/assets";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <Container className="header-wrapper">
@@ -13,7 +14,9 @@ const Header = () => {
       >
         <Logo className="logo" />
         <Button className="active">Home</Button>
-        <Button>Market</Button>
+        <Button component={Link} to="/404">
+          Market
+        </Button>
         <Button>Explore</Button>
         <Button>Exhibitiontab</Button>
         <Button>Artist</Button>
