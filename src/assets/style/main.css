@@ -149,17 +149,19 @@ html {
 }
 
 .nft-bid {
+  width: 368px;
   color: #fff;
 }
 
 .MuiCard-root .MuiButtonBase-root {
-  width: 368px;
+  width: 400px;
   height: 64px;
   border-radius: 8px;
   color: #fff;
 }
 
 .MuiCard-root .MuiButtonBase-root.nft-btn {
+  width: 368px;
   background-color: #1f75ff;
 }
 

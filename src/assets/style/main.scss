@@ -126,15 +126,18 @@ html {
   padding: 16px;
 }
 .nft-bid {
+  width: 368px;
   color: $ButtonsColor;
 }
+
 .MuiCard-root {
   .MuiButtonBase-root {
-    width: 368px;
+    width: 400px;
     height: 64px;
     border-radius: 8px;
     color: $ButtonsColor;
     &.nft-btn {
+      width: 368px;
       background-color: $ButtonsBackgroundColor;
     }
   }

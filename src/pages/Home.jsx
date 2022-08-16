@@ -31,7 +31,7 @@ function Home() {
           See All
         </Button>
       </Stack>
-      <Stack direction="row" spacing={2}>
+      <Stack direction="row" spacing={2} sx={{ display: "inline-flex" }}>
         {appData.nft.map((item) => (
           <NFTCard key={"nft-item-${item.user.name}"} item={item} />
         ))}
