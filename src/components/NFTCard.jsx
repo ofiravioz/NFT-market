@@ -4,22 +4,20 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Box, Button, CardActionArea, Stack } from "@mui/material";
-import { MainImage, Bids, History } from "../common/assets.js";
-import UserInfo from "./UserInfo.jsx";
 
 export default function NFTCard({ item }) {
   return (
     <Card sx={{ width: 400, height: 674, backgroundColor: "#0E1E45" }}>
       <CardActionArea>
-        <CardMedia />
-        <img className="nft-image" src={item.nft.image} />
+        <CardMedia component="img" />
+        <img className="nft-image" src={item.nft.image} alt="no image" />
         <CardContent>
           <Typography gutterBottom variant="h4" component="div">
             {item.nft.name}
           </Typography>
 
           <Stack direction="row" spacing={1}>
-            <img className="user-image" src={item.user.image} />
+            <img className="user-image" src={item.user.image} alt="no image" />
             <Typography>{item.user.name}</Typography>
           </Stack>
 

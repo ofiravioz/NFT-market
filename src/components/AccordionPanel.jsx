@@ -50,10 +50,7 @@ export const AccordionPanel = ({ expandedDefault, title, data }) => {
           }}
         >
           {data.map((item) => (
-            <AccordionPanelItem
-              key={"accordion-item-${item.user.name}"}
-              item={item}
-            />
+            <AccordionPanelItem item={item} />
           ))}
         </AccordionDetails>
       </Accordion>

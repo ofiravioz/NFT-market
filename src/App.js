@@ -1,7 +1,6 @@
 import "./App.css";
 import "./assets/style/main.css";
-import { Button, Container, Stack, Typography } from "@mui/material";
-import { AccordionPanel } from "./components/AccordionPanel";
+import { Container } from "@mui/material";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./pages/Home";

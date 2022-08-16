@@ -1,4 +1,4 @@
-import { Box, Chip, Container, Stack } from "@mui/material";
+import { Box, Chip, Stack } from "@mui/material";
 import React from "react";
 const Category = ({ data }) => {
   return (
@@ -11,7 +11,7 @@ const Category = ({ data }) => {
         spacing={2}
       >
         {data.map((item) => (
-          <Chip label={item} variant="outlined" />
+          <Chip key={item} label={item} variant="outlined" />
         ))}
       </Stack>
     </Box>

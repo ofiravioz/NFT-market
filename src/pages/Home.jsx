@@ -33,7 +33,7 @@ function Home() {
       </Stack>
       <Stack direction="row" spacing={2} sx={{ display: "inline-flex" }}>
         {appData.nft.map((item) => (
-          <NFTCard key={"nft-item-${item.user.name}"} item={item} />
+          <NFTCard item={item} />
         ))}
       </Stack>
       <Email />
