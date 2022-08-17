@@ -1,4 +1,20 @@
 @import "./colors.scss";
+@media only screen and (max-width: 600px) {
+  .header-wrapper {
+    width: fit-content;
+    .MuiContainer-root {
+      display: inline-flex;
+    }
+  }
+  .subscription-container {
+    margin-top: 160px;
+    margin-bottom: 160px;
+    width: max-content;
+    height: 456px;
+    display: inline-flex !important;
+    justify-content: center;
+  }
+}
 
 html {
   background-color: $background;
