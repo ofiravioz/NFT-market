@@ -1,18 +1,240 @@
 @import "./colors.scss";
 @media only screen and (max-width: 640px) {
+  html {
+    background-color: $background;
+    color: $background;
+  }
+  /*Header*/
   .header-wrapper {
-    width: fit-content;
-    .MuiContainer-root {
-      display: inline-flex;
+    width: 1232px;
+    .MuiButtonBase-root {
+      padding: 0;
+      color: $headerTextButtonColor;
+      &.active {
+        color: $headerContainButtonColorActive;
+      }
+    }
+    .logo {
+      margin-right: auto;
+      width: 161px;
+      height: 32px;
     }
   }
+  .MuiGrid-root {
+    margin-left: auto;
+  }
+
+  .MuiTypography-root {
+    color: $headerContainButtonColorActive;
+    margin-right: auto;
+  }
+
+  /*Herosection*/
+  .hero-section-stack {
+    margin-top: 40px;
+    margin-bottom: 120.68px;
+    .MuiButtonBase-root {
+      color: $HeroSectionColor;
+      border-color: $HeroSectionColor;
+    }
+  }
+  .hero-section-wrapper {
+    color: $HeroSectionColor;
+  }
+  /*Category*/
+  .category-wrapper {
+    margin-top: 24px;
+    padding-left: 0%;
+    .MuiChip-label {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .MuiChip-root {
+      color: $headerTextButtonColor;
+      margin-right: 16px;
+      margin-left: 0px;
+      margin-top: 16px;
+      font-size: 11px;
+      border-radius: 8px;
+      background-color: $AccordionPanelBackgroundColor;
+      border-color: transparent;
+    }
+  }
+  /*Owner*/
+  .owner-wrapper {
+    margin-top: 40px;
+    margin-bottom: 24px;
+  }
+  /*Buttons*/
+  .MuiButtonBase-root {
+    padding: 16px 40px;
+    width: 166px;
+    height: 64px;
+    color: $ButtonsColor;
+    &.MuiButton-containedSecondary {
+      padding: 12px 32px;
+      color: $ButtonsColor;
+    }
+  }
+  .more-works {
+    margin-bottom: 56px;
+    margin-top: 80px;
+    .MuiButtonBase-root {
+      margin-left: auto;
+    }
+  }
+
+  /*Lastprice*/
+  .lastprice-wrapper {
+    margin-top: 4px;
+    margin-bottom: 40px;
+    .price-location {
+      margin-top: 16px;
+    }
+  }
+  /*Accordion*/
+  .css-xteuvn-MuiStack-root {
+    margin-bottom: 80px;
+    margin-left: 104px;
+  }
+  .MuiPaper-root {
+    border-radius: 16px;
+    background-color: $AccordionPanelBackgroundColor;
+    width: 604px;
+
+    &.MuiAccordion-root {
+      border-radius: 8px;
+      background-color: $AccordionPanelBackgroundColor;
+    }
+    .MuiButtonBase-root {
+      background-color: $AccordionPanelBackgroundColor;
+      width: 604px;
+      border-radius: 8px;
+    }
+  }
+
+  /*NFT*/
+  .user-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+  }
+  .nft-image {
+    width: 368px;
+    height: 354px;
+    border-radius: 16px;
+    padding: 16px;
+  }
+  .nft-bid {
+    width: 368px;
+    color: $ButtonsColor;
+  }
+
+  .MuiCard-root {
+    .MuiButtonBase-root {
+      width: 400px;
+      height: 64px;
+      border-radius: 8px;
+      color: $ButtonsColor;
+      &.nft-btn {
+        width: 368px;
+        background-color: $ButtonsBackgroundColor;
+      }
+    }
+  }
+
+  /*Footer*/
+  .footer-wrap {
+    max-width: 1218px;
+    max-height: 312px;
+    display: flex;
+    .MuiContainer {
+      width: 500px;
+      height: 148px;
+      .logo {
+        width: 161px;
+        height: 32px;
+      }
+    }
+    .css-82xd8s-MuiStack-root {
+      margin-top: 130px;
+      .MuiButtonBase-root {
+        font-weight: 400;
+      }
+    }
+    .MuiTypography-root {
+      margin-top: 41px;
+      font-weight: 400;
+    }
+    .MuiBox-root {
+      padding-left: 108px;
+      font-size: 16px;
+      width: 500px;
+      height: 84px;
+      .header {
+        font-size: 22px;
+        width: 160px;
+        height: 32px;
+        margin-bottom: 16px;
+        margin-top: 0;
+        font-weight: 700;
+      }
+    }
+
+    .MuiButtonBase-root {
+      color: $ButtonsColor;
+      margin-right: auto;
+      font-size: 16px;
+      height: 28px;
+      margin-top: 8px;
+      padding: 0px;
+      font-weight: 400;
+    }
+  }
+
+  /*Subscription*/
   .subscription-container {
     margin-top: 160px;
     margin-bottom: 160px;
-    width: max-content;
+    width: 1232px;
     height: 456px;
-    display: inline-flex !important;
+    background-color: #003385;
+    display: flex !important;
     justify-content: center;
+
+    .MuiBox-root {
+      height: 100%;
+      max-width: 710px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      .MuiFormControl-root {
+        margin-top: 32px;
+        height: 56px;
+        width: 513px;
+        .MuiFormLabel-root {
+          color: white;
+        }
+      }
+      .MuiButtonBase-root {
+        height: 56px;
+        width: 143px;
+        background-color: $ButtonsBackgroundColor;
+        color: $ButtonsColor;
+        margin-top: 32px;
+      }
+      .MuiTypography-root {
+        &.MuiTypography-h3 {
+          font-size: 48px;
+          font-weight: 700;
+        }
+        &.MuiTypography-h5 {
+          font-size: 16px;
+        }
+      }
+    }
   }
 }
 
