@@ -42,6 +42,12 @@ html {
   color: "#fff";
   padding: 0;
   width: "1440px";
+  .hero-section-stack {
+    .hero-image {
+      width: "608px";
+      height: "783px";
+    }
+  }
 }
 .hero-section-wrapper {
   color: $HeroSectionColor;
@@ -256,7 +262,7 @@ html {
     padding: 0;
     max-width: fit-content;
     .hero-section-stack {
-      .img {
+      .hero-image {
         width: -webkit-fill-available;
         height: auto;
       }

@@ -53,6 +53,11 @@ html {
   width: "1440px";
 }
 
+.hero-container .hero-section-stack .hero-image {
+  width: "608px";
+  height: "783px";
+}
+
 .hero-section-wrapper {
   color: #fff;
 }
@@ -290,7 +295,7 @@ html {
     padding: 0;
     max-width: fit-content;
   }
-  .hero-container .hero-section-stack .img {
+  .hero-container .hero-section-stack .hero-image {
     width: -webkit-fill-available;
     height: auto;
   }
