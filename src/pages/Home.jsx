@@ -11,7 +11,7 @@ function Home() {
       <Container>
         <HeroSection data={appData.herotag} />
       </Container>
-      <Stack direction="row">
+      <Stack direction="row" spacing={3}>
         <AccordionPanel
           expandedDefault={true}
           title="History"
