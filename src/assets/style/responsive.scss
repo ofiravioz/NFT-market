@@ -40,7 +40,10 @@
         width: 100%;
         div {
           width: 100%;
-          &.MuiAvatar-root,
+          &.MuiAvatar-root {
+            width: 32px;
+            height: 32px;
+          }
           &.Mui-expanded {
             width: initial;
           }

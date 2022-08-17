@@ -43,7 +43,11 @@
   html .accordion-stack .MuiBox-root div {
     width: 100%;
   }
-  html .accordion-stack .MuiBox-root div.MuiAvatar-root, html .accordion-stack .MuiBox-root div.Mui-expanded {
+  html .accordion-stack .MuiBox-root div.MuiAvatar-root {
+    width: 32px;
+    height: 32px;
+  }
+  html .accordion-stack .MuiBox-root div.Mui-expanded {
     width: initial;
   }
   html .accordion-stack > div {
