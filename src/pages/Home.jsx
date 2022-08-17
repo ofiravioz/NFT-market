@@ -11,7 +11,7 @@ function Home() {
       <Container>
         <HeroSection data={appData.herotag} />
       </Container>
-      <Stack direction="row" spacing={3}>
+      <Stack className="accordion-stack" direction="row" spacing={3}>
         <AccordionPanel
           expandedDefault={true}
           title="History"
@@ -33,7 +33,12 @@ function Home() {
           See All
         </Button>
       </Stack>
-      <Stack direction="row" spacing={2} sx={{ display: "inline-flex" }}>
+      <Stack
+        className="nft-stack"
+        direction="row"
+        spacing={2}
+        sx={{ display: "inline-flex" }}
+      >
         {appData.nft.map((item) => (
           <NFTCard item={item} />
         ))}

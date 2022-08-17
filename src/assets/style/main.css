@@ -279,10 +279,19 @@ html {
     padding-left: 16px;
     padding-right: 16px;
   }
-  .header-wrapper .MuiContainer {
+  .header-wrapper .header-stack {
+    flex-wrap: wrap;
+  }
+  .accordion-stack {
     flex-wrap: wrap;
   }
   .hero-section-stack {
+    flex-wrap: wrap;
+  }
+  .more-works {
+    flex-wrap: wrap;
+  }
+  .nft-stack {
     flex-wrap: wrap;
   }
 }
