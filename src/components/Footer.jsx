@@ -69,7 +69,7 @@ const Footer = () => {
           Twitter
         </Button>
       </Box>
-      <Box direction="row" spacing={7} sx={{ marginTop: "130px" }}>
+      <Box>
         <Button component={Link} to="/404" className="test">
           Privacy Policy
         </Button>
