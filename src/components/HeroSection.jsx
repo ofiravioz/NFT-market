@@ -29,6 +29,7 @@ const HeroSection = ({ data }) => {
       sx={{
         color: "#fff",
         padding: 0,
+        width: "1440px",
       }}
     >
       <Stack

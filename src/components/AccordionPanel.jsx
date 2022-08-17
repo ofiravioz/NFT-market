@@ -7,7 +7,7 @@ import {
   Stack,
   Container,
   Grid,
-  Icon,
+  Box,
 } from "@mui/material";
 import { useState } from "react";
 import UserInfo from "./UserInfo";
@@ -31,7 +31,7 @@ export const AccordionPanel = ({ expandedDefault, title, data, icon }) => {
   };
   console.log({ icon });
   return (
-    <Container>
+    <Box>
       <Accordion expanded={expanded} onChange={handleChange}>
         <AccordionSummary
           expandIcon={
@@ -68,6 +68,6 @@ export const AccordionPanel = ({ expandedDefault, title, data, icon }) => {
           ))}
         </AccordionDetails>
       </Accordion>
-    </Container>
+    </Box>
   );
 };

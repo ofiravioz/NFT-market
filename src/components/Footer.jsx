@@ -23,7 +23,6 @@ const Footer = () => {
       </Container>
       <Box>
         <Button component={Link} to="/404" className="header">
-          {" "}
           About
         </Button>
         <Button component={Link} to="/404">
