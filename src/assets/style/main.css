@@ -288,13 +288,13 @@ html {
   .hero-container {
     color: "#fff";
     padding: 0;
-    width: "auto";
+    max-width: fit-content;
   }
   .hero-container .hero-section-stack .img {
     width: -webkit-fill-available;
     height: auto;
   }
-  .hero-container .header-wrapper .header-stack {
+  .header-wrapper .header-stack {
     flex-wrap: wrap;
   }
   .accordion-stack {

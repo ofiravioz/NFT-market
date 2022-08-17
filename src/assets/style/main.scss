@@ -254,20 +254,20 @@ html {
   .hero-container {
     color: "#fff";
     padding: 0;
-    width: "auto";
+    max-width: fit-content;
     .hero-section-stack {
       .img {
         width: -webkit-fill-available;
         height: auto;
       }
     }
-
-    .header-wrapper {
-      .header-stack {
-        flex-wrap: wrap;
-      }
+  }
+  .header-wrapper {
+    .header-stack {
+      flex-wrap: wrap;
     }
   }
+
   .accordion-stack {
     flex-wrap: wrap;
   }
