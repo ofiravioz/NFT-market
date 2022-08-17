@@ -263,10 +263,14 @@ html {
   .nft-stack {
     flex-wrap: wrap;
   }
+
   .footer-wrap {
     flex-wrap: wrap;
-    .footer-section {
-      flex-wrap: wrap;
+
+    .MuiBox-root {
+      font-size: 16px;
+      width: auto;
+      height: auto;
     }
   }
 }
