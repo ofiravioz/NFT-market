@@ -12,6 +12,19 @@ const Footer = () => {
           tristique placerat eleifend aliquam pellentesque facilisis ultrices.
           Imperdiet mus urna egestas at tellus.{" "}
         </Typography>
+        <Stack
+          className="footer-terms"
+          direction="row"
+          spacing={7}
+          sx={{ marginTop: "130px" }}
+        >
+          <Button component={Link} to="/404" className="test">
+            Privacy Policy
+          </Button>
+          <Button component={Link} to="/404">
+            Terms and Condition
+          </Button>
+        </Stack>
       </Container>
       <Box className="footer-section">
         <Button component={Link} to="/404" className="header">
@@ -67,14 +80,6 @@ const Footer = () => {
         </Button>
         <Button component={Link} to="/404">
           Twitter
-        </Button>
-      </Box>
-      <Box>
-        <Button component={Link} to="/404" className="test">
-          Privacy Policy
-        </Button>
-        <Button component={Link} to="/404">
-          Terms and Condition
         </Button>
       </Box>
     </Box>
