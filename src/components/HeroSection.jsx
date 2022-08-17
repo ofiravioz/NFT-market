@@ -44,12 +44,12 @@ const HeroSection = ({ data }) => {
           <Typography gutterBottom variant="h3" component="div">
             Geometrical heart-fire dispersion
           </Typography>
-          <Box>
+          <Typography color={"#ccc"}>
             A fragmental dispersion of the heart. I used many photoshop
             geometrical brushes with different random size and opacity, in order
             to emphatize the contrast between front and background spaces,
             enhancing better the main subject exposure.
-          </Box>
+          </Typography>
           <Category data={data} />
           <Owner />
           <Lastprice />
