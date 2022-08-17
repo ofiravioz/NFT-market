@@ -75,7 +75,10 @@
     width: 100%;
     margin-left: 0;
     margin-bottom: 20px;
-    height: 560px;
+    height: 100%;
+  }
+  html .nft-stack .MuiCardActionArea-root {
+    height: 100%;
   }
   html .nft-stack .nft-image {
     width: 100%;
