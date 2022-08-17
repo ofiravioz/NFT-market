@@ -279,7 +279,7 @@ html {
     padding-left: 16px;
     padding-right: 16px;
   }
-  .header-wrapper {
+  .header-wrapper .MuiContainer {
     flex-wrap: wrap;
   }
   .hero-section-stack {
