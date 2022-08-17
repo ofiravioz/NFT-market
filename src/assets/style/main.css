@@ -290,12 +290,12 @@ html {
     padding: 0;
     width: "auto";
   }
-  .header-wrapper .header-stack {
-    flex-wrap: wrap;
-  }
-  .header-wrapper .header-stack .img {
+  .hero-container .hero-section-stack .img {
     width: -webkit-fill-available;
     height: auto;
+  }
+  .hero-container .header-wrapper .header-stack {
+    flex-wrap: wrap;
   }
   .accordion-stack {
     flex-wrap: wrap;

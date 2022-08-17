@@ -255,13 +255,16 @@ html {
     color: "#fff";
     padding: 0;
     width: "auto";
-  }
-  .header-wrapper {
-    .header-stack {
-      flex-wrap: wrap;
+    .hero-section-stack {
       .img {
         width: -webkit-fill-available;
         height: auto;
+      }
+    }
+
+    .header-wrapper {
+      .header-stack {
+        flex-wrap: wrap;
       }
     }
   }
