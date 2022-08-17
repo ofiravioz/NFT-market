@@ -1,6 +1,6 @@
 @import "./colors.scss";
 @media only screen and (max-width: 640px) {
-  .MuiContainer-root {
+  .app-wraper {
     width: min-content;
     margin-left: auto;
     box-sizing: border-box;
@@ -8,14 +8,6 @@
     display: block;
     padding-left: 16px;
     padding-right: 16px;
-  }
-  .css-183f7u {
-    display: inline-flex;
-    flex-direction: row;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
   }
 }
 

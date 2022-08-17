@@ -8,7 +8,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PageNotFound from "./pages/PageNotFound";
 function App() {
   return (
-    <Container maxWidth="lg">
+    <Container className="app-wraper" maxWidth="lg">
       <BrowserRouter>
         <Header />
         <Routes>
