@@ -12,6 +12,13 @@
   html .header-stack .MuiButtonBase-root {
     margin-left: 0;
   }
+  html hero-container .hero-section-stack .hero-image {
+    width: 100%;
+    height: auto;
+  }
+  html hero-container .hero-section-stack .MuiContainer-root {
+    margin: 0%;
+  }
   html .owner-wrapper {
     flex-wrap: wrap;
   }

@@ -11,6 +11,18 @@
         margin-left: 0;
       }
     }
+    hero-container {
+      .hero-section-stack {
+        .hero-image {
+          width: 100%;
+          height: auto;
+        }
+        .MuiContainer-root {
+          margin: 0%;
+        }
+      }
+    }
+
     .owner-wrapper {
       flex-wrap: wrap;
       > div {
