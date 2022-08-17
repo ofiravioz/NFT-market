@@ -16,6 +16,19 @@
   html .header-stack .MuiButtonBase-root {
     margin-left: 0;
   }
+  html .hero-container {
+    flex-wrap: wrap;
+  }
+  html .hero-container .hero-section-stack {
+    flex-wrap: wrap;
+  }
+  html .hero-container .hero-section-stack .hero-image {
+    width: 100%;
+    height: auto;
+  }
+  html .hero-container .hero-section-stack .MuiContainer-root {
+    margin: 0%;
+  }
   html .owner-wrapper {
     flex-wrap: wrap;
   }
@@ -62,6 +75,7 @@
     width: 100%;
     margin-left: 0;
     margin-bottom: 20px;
+    height: 560px;
   }
   html .nft-stack .nft-image {
     width: 100%;
@@ -76,6 +90,10 @@
   }
   html .nft-stack .MuiCardActionArea-root {
     width: 100%;
+  }
+  html .subscription-container {
+    margin-bottom: 40px;
+    margin-top: 20px;
   }
   html .subscription-container .MuiBox-root {
     width: 100%;
@@ -98,6 +116,13 @@
     padding-left: 0;
     margin-bottom: 20px;
   }
+  html .footer-wrap .footer-section .logo {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  html .footer-wrap .footer-terms {
+    display: none;
+  }
   html .footer-wrap .MuiBox-root {
     padding-left: 0;
     width: 100%;
@@ -108,9 +133,6 @@
   html .footer-wrap .MuiBox-root .header {
     width: 100%;
     height: auto;
-  }
-  html .footer-wrap .nisim {
-    display: none;
   }
   html .MuiButtonBase-root {
     height: 44px;

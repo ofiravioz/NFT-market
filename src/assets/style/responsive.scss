@@ -12,7 +12,9 @@
       }
     }
     .hero-container {
+      flex-wrap: wrap;
       .hero-section-stack {
+        flex-wrap: wrap;
         .hero-image {
           width: 100%;
           height: auto;
@@ -91,6 +93,8 @@
       }
     }
     .subscription-container {
+      margin-bottom: 40px;
+      margin-top: 20px;
       .MuiBox-root {
         width: 100%;
         padding: 20px 0;
@@ -113,9 +117,13 @@
         height: auto;
         padding-left: 0;
         margin-bottom: 20px;
-        .footer-terms {
-          display: none;
+        .logo {
+          margin-right: auto;
+          margin-left: auto;
         }
+      }
+      .footer-terms {
+        display: none;
       }
       .MuiBox-root {
         padding-left: 0;

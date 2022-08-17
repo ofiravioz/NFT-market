@@ -12,6 +12,12 @@
   html .header-stack .MuiButtonBase-root {
     margin-left: 0;
   }
+  html .hero-container {
+    flex-wrap: wrap;
+  }
+  html .hero-container .hero-section-stack {
+    flex-wrap: wrap;
+  }
   html .hero-container .hero-section-stack .hero-image {
     width: 100%;
     height: auto;
@@ -81,6 +87,10 @@
   html .nft-stack .MuiCardActionArea-root {
     width: 100%;
   }
+  html .subscription-container {
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
   html .subscription-container .MuiBox-root {
     width: 100%;
     padding: 20px 0;
@@ -102,7 +112,11 @@
     padding-left: 0;
     margin-bottom: 20px;
   }
-  html .footer-wrap .footer-section .footer-terms {
+  html .footer-wrap .footer-section .logo {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  html .footer-wrap .footer-terms {
     display: none;
   }
   html .footer-wrap .MuiBox-root {
