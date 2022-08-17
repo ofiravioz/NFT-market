@@ -297,7 +297,7 @@ html {
   .footer-wrap {
     flex-wrap: wrap;
   }
-  .footer-wrap .MuiBox-root {
+  .footer-wrap .footer-section {
     flex-wrap: wrap;
   }
 }

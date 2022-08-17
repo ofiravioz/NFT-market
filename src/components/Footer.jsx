@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <Box className="footer-wrap">
-      <Container>
+      <Container className="footer-section">
         <Logo className="logo" />
         <Typography sx={{ margintop: 41.52 }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
@@ -21,7 +21,7 @@ const Footer = () => {
           </Button>
         </Stack>
       </Container>
-      <Box>
+      <Box className="footer-section">
         <Button component={Link} to="/404" className="header">
           About
         </Button>
@@ -41,7 +41,7 @@ const Footer = () => {
           Become a Partner
         </Button>
       </Box>
-      <Box>
+      <Box className="footer-section">
         <Button component={Link} to="/404" className="header">
           {" "}
           Comunity
@@ -62,7 +62,7 @@ const Footer = () => {
           Help Center
         </Button>
       </Box>
-      <Box>
+      <Box className="footer-section">
         <Button component={Link} to="/404" className="header">
           {" "}
           Social Media
