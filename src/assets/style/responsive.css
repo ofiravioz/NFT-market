@@ -12,11 +12,11 @@
   html .header-stack .MuiButtonBase-root {
     margin-left: 0;
   }
-  html hero-container .hero-section-stack .hero-image {
+  html .hero-container .hero-section-stack .hero-image {
     width: 100%;
     height: auto;
   }
-  html hero-container .hero-section-stack .MuiContainer-root {
+  html .hero-container .hero-section-stack .MuiContainer-root {
     margin: 0%;
   }
   html .owner-wrapper {
@@ -65,6 +65,7 @@
     width: 100%;
     margin-left: 0;
     margin-bottom: 20px;
+    height: 560px;
   }
   html .nft-stack .nft-image {
     width: 100%;
