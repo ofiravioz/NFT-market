@@ -12,7 +12,7 @@ const Footer = () => {
           tristique placerat eleifend aliquam pellentesque facilisis ultrices.
           Imperdiet mus urna egestas at tellus.{" "}
         </Typography>
-        <Stack direction="row" spacing={7}>
+        <Stack direction="row" spacing={7} sx={{ marginTop: "130px" }}>
           <Button component={Link} to="/404" className="test">
             Privacy Policy
           </Button>
