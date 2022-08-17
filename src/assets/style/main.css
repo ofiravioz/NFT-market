@@ -184,14 +184,18 @@ html {
   display: flex;
 }
 
-.footer-wrap .MuiContainer {
+.footer-wrap .footer-section {
   width: 500px;
   height: 148px;
 }
 
-.footer-wrap .MuiContainer .logo {
+.footer-wrap .footer-section .logo {
   width: 161px;
   height: 32px;
+}
+
+.footer-wrap .footer-section .footer-word {
+  margin-top: 41.58px;
 }
 
 .footer-wrap .css-82xd8s-MuiStack-root {

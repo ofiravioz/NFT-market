@@ -7,19 +7,11 @@ const Footer = () => {
     <Box className="footer-wrap">
       <Container className="footer-section">
         <Logo className="logo" />
-        <Typography sx={{ margintop: 41.52 }}>
+        <Typography className="footer-word">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
           tristique placerat eleifend aliquam pellentesque facilisis ultrices.
           Imperdiet mus urna egestas at tellus.{" "}
         </Typography>
-        <Stack direction="row" spacing={7} sx={{ marginTop: "130px" }}>
-          <Button component={Link} to="/404" className="test">
-            Privacy Policy
-          </Button>
-          <Button component={Link} to="/404" className="test">
-            Terms and Condition
-          </Button>
-        </Stack>
       </Container>
       <Box className="footer-section">
         <Button component={Link} to="/404" className="header">
@@ -75,6 +67,14 @@ const Footer = () => {
         </Button>
         <Button component={Link} to="/404">
           Twitter
+        </Button>
+      </Box>
+      <Box direction="row" spacing={7} sx={{ marginTop: "130px" }}>
+        <Button component={Link} to="/404" className="test">
+          Privacy Policy
+        </Button>
+        <Button component={Link} to="/404">
+          Terms and Condition
         </Button>
       </Box>
     </Box>

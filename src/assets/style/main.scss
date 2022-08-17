@@ -160,12 +160,15 @@ html {
   max-width: 1218px;
   max-height: 312px;
   display: flex;
-  .MuiContainer {
+  .footer-section {
     width: 500px;
     height: 148px;
     .logo {
       width: 161px;
       height: 32px;
+    }
+    .footer-word {
+      margin-top: 41.58px;
     }
   }
   .css-82xd8s-MuiStack-root {
