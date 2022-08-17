@@ -7,6 +7,7 @@ const Header = () => {
   return (
     <Container className="header-wrapper">
       <Stack
+        className="header-stack"
         direction="row"
         spacing={5}
         alignItems="center"
