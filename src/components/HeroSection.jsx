@@ -10,16 +10,16 @@ import { Link } from "react-router-dom";
 
 const Owner = () => {
   return (
-    <Container className="owner-wrapper">
-      <Stack marginBottom="8px" direction="row" spacing={16}>
+    <Box className="owner-wrapper">
+      <Stack direction="column">
         <Typography>Artist</Typography>
-        <Typography>Owner</Typography>
-      </Stack>
-      <Stack direction="row" spacing={5}>
         <UserInfo name="CameronWill" />
+      </Stack>
+      <Stack direction="column">
+        <Typography>Owner</Typography>
         <UserInfo name="Williamson" />
       </Stack>
-    </Container>
+    </Box>
   );
 };
 

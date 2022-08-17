@@ -1,0 +1,118 @@
+@media only screen and (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+  html .header-stack {
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  html .header-stack .logo {
+    margin-left: auto;
+  }
+  html .header-stack .MuiButtonBase-root {
+    margin-left: 0;
+  }
+  html .owner-wrapper {
+    flex-wrap: wrap;
+  }
+  html .owner-wrapper > div {
+    margin-bottom: 15px;
+  }
+  html .owner-wrapper > div:last-child {
+    margin-left: 0;
+  }
+  html .accordion-stack {
+    flex-wrap: wrap;
+  }
+  html .accordion-stack .MuiBox-root {
+    width: 100%;
+  }
+  html .accordion-stack .MuiBox-root div {
+    width: 100%;
+  }
+  html .accordion-stack .MuiBox-root div.MuiAvatar-root, html .accordion-stack .MuiBox-root div.Mui-expanded {
+    width: initial;
+  }
+  html .accordion-stack > div {
+    margin-bottom: 15px;
+  }
+  html .accordion-stack > div:last-child {
+    margin-left: 0;
+  }
+  html .accordion-stack .MuiAccordionDetails-root > div {
+    display: block;
+    margin-bottom: 15px;
+  }
+  html .more-works {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  html .more-works .MuiButtonBase-root {
+    margin-right: auto;
+  }
+  html .nft-stack {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  html .nft-stack .MuiPaper-root {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  html .nft-stack .nft-image {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  html .nft-stack .MuiButtonBase-root.nft-btn {
+    width: 100%;
+  }
+  html .nft-stack .MuiButtonBase-root.MuiCard-root {
+    width: 100%;
+  }
+  html .nft-stack .MuiCardActionArea-root {
+    width: 100%;
+  }
+  html .subscription-container .MuiBox-root {
+    width: 100%;
+    padding: 20px 0;
+  }
+  html .subscription-container .MuiBox-root .MuiTypography-root.MuiTypography-h3 {
+    font-size: 2.5rem;
+  }
+  html .footer-wrap {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  html .footer-wrap .footer-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  html .footer-wrap .footer-section .footer-terms {
+    display: none;
+  }
+  html .footer-wrap .MuiBox-root {
+    padding-left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  html .footer-wrap .MuiBox-root .header {
+    width: 100%;
+    height: auto;
+  }
+  html .MuiButtonBase-root {
+    height: 44px;
+    margin-left: auto;
+  }
+  html .MuiTypography-h2 {
+    font-size: 2rem;
+  }
+}

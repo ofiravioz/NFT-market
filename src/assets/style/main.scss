@@ -1,4 +1,5 @@
 @import "./colors.scss";
+@import "./responsive.scss";
 
 html {
   background-color: $background;
@@ -73,8 +74,14 @@ html {
 }
 /*Owner*/
 .owner-wrapper {
+  display: flex;
   margin-top: 40px;
   margin-bottom: 24px;
+  div{
+    &:last-child{
+      margin-left: auto;
+    }
+  }
 }
 /*Buttons*/
 .MuiButtonBase-root {
@@ -247,56 +254,6 @@ html {
       &.MuiTypography-h5 {
         font-size: 16px;
       }
-    }
-  }
-}
-@media only screen and (max-width: 640px) {
-  .app-wrap {
-    width: min-content;
-    margin-left: auto;
-    box-sizing: border-box;
-    margin-right: auto;
-    display: block;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  .hero-container {
-    color: "#fff";
-    padding: 0;
-    max-width: fit-content;
-    .hero-section-stack {
-      .hero-image {
-        width: -webkit-fill-available;
-        height: auto;
-      }
-    }
-  }
-  .header-wrapper {
-    .header-stack {
-      flex-wrap: wrap;
-    }
-  }
-
-  .accordion-stack {
-    flex-wrap: wrap;
-  }
-  .hero-section-stack {
-    flex-wrap: wrap;
-  }
-  .more-works {
-    flex-wrap: wrap;
-  }
-  .nft-stack {
-    flex-wrap: wrap;
-  }
-
-  .footer-wrap {
-    flex-wrap: wrap;
-    .MuiBox-root {
-      flex-wrap: wrap;
-      font-size: 16px;
-      width: auto;
-      height: auto;
     }
   }
 }

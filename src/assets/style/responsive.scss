@@ -1,0 +1,127 @@
+@media only screen and (max-width: 640px) {
+  html {
+    font-size: 14px;
+    .header-stack {
+      margin-top: 20px;
+      flex-wrap: wrap;
+      .logo {
+        margin-left: auto;
+      }
+      .MuiButtonBase-root {
+        margin-left: 0;
+      }
+    }
+    .owner-wrapper {
+      flex-wrap: wrap;
+      > div {
+        margin-bottom: 15px;
+        &:last-child {
+          margin-left: 0;
+        }
+      }
+    }
+    .accordion-stack {
+      flex-wrap: wrap;
+      .MuiBox-root {
+        width: 100%;
+        div {
+          width: 100%;
+          &.MuiAvatar-root,
+          &.Mui-expanded {
+            width: initial;
+          }
+        }
+      }
+      > div {
+        margin-bottom: 15px;
+        &:last-child {
+          margin-left: 0;
+        }
+      }
+      .MuiAccordionDetails-root {
+        > div {
+          display: block;
+          margin-bottom: 15px;
+        }
+      }
+    }
+    .more-works {
+      flex-wrap: wrap;
+      text-align: center;
+      .MuiButtonBase-root {
+        margin-right: auto;
+      }
+    }
+    .nft-stack {
+      flex-wrap: wrap;
+      width: 100%;
+      .MuiPaper-root {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+      }
+      .nft-image {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+      }
+      .MuiButtonBase-root {
+        &.nft-btn {
+          width: 100%;
+        }
+        &.MuiCard-root {
+          width: 100%;
+        }
+      }
+      .MuiCardActionArea-root {
+        width: 100%;
+      }
+    }
+    .subscription-container {
+      .MuiBox-root {
+        width: 100%;
+        padding: 20px 0;
+        .MuiTypography-root {
+          &.MuiTypography-h3 {
+            font-size: 2.5rem;
+          }
+        }
+      }
+    }
+    .footer-wrap {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      flex-wrap: wrap;
+      .footer-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        margin-bottom: 20px;
+        .footer-terms {
+          display: none;
+        }
+      }
+      .MuiBox-root {
+        padding-left: 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        .header {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    .MuiButtonBase-root {
+      height: 44px;
+      margin-left: auto;
+    }
+    .MuiTypography-h2 {
+      font-size: 2rem;
+    }
+  }
+}
