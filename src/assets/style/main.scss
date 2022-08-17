@@ -38,6 +38,11 @@ html {
     border-color: $HeroSectionColor;
   }
 }
+.hero-container {
+  color: "#fff";
+  padding: 0;
+  width: "1440px";
+}
 .hero-section-wrapper {
   color: $HeroSectionColor;
 }
@@ -246,9 +251,18 @@ html {
     padding-left: 16px;
     padding-right: 16px;
   }
+  .hero-container {
+    color: "#fff";
+    padding: 0;
+    width: "auto";
+  }
   .header-wrapper {
     .header-stack {
       flex-wrap: wrap;
+      .img {
+        width: -webkit-fill-available;
+        height: auto;
+      }
     }
   }
   .accordion-stack {

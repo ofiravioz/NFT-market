@@ -25,13 +25,7 @@ const Owner = () => {
 
 const HeroSection = ({ data }) => {
   return (
-    <Container
-      sx={{
-        color: "#fff",
-        padding: 0,
-        width: "1440px",
-      }}
-    >
+    <Container className="hero-container">
       <Stack
         className="hero-section-stack"
         direction="row"

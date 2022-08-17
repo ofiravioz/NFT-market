@@ -47,6 +47,12 @@ html {
   border-color: #fff;
 }
 
+.hero-container {
+  color: "#fff";
+  padding: 0;
+  width: "1440px";
+}
+
 .hero-section-wrapper {
   color: #fff;
 }
@@ -279,8 +285,17 @@ html {
     padding-left: 16px;
     padding-right: 16px;
   }
+  .hero-container {
+    color: "#fff";
+    padding: 0;
+    width: "auto";
+  }
   .header-wrapper .header-stack {
     flex-wrap: wrap;
+  }
+  .header-wrapper .header-stack .img {
+    width: -webkit-fill-available;
+    height: auto;
   }
   .accordion-stack {
     flex-wrap: wrap;
