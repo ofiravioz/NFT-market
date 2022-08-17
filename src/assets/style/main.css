@@ -2,14 +2,6 @@
 /*Herosection*/
 /*Accordion*/
 /*Buttons*/
-@media only screen and (max-width: 640px) {
-  .hero-section-stack {
-    margin-top: 40px;
-    margin-bottom: 120.68px;
-    flex-wrap: wrap;
-  }
-}
-
 html {
   background-color: #06132d;
   color: #06132d;
@@ -275,4 +267,12 @@ html {
 
 .subscription-container .MuiBox-root .MuiTypography-root.MuiTypography-h5 {
   font-size: 16px;
+}
+
+@media only screen and (max-width: 640px) {
+  .hero-section-stack {
+    margin-top: 40px;
+    margin-bottom: 120.68px;
+    flex-wrap: wrap;
+  }
 }

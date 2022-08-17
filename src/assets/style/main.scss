@@ -1,11 +1,4 @@
 @import "./colors.scss";
-@media only screen and (max-width: 640px) {
-  .hero-section-stack {
-    margin-top: 40px;
-    margin-bottom: 120.68px;
-    flex-wrap: wrap;
-  }
-}
 
 html {
   background-color: $background;
@@ -241,5 +234,13 @@ html {
         font-size: 16px;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .hero-section-stack {
+    margin-top: 40px;
+    margin-bottom: 120.68px;
+    flex-wrap: wrap;
   }
 }
